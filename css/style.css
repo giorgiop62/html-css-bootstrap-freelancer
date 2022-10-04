@@ -1,8 +1,10 @@
 [class^="container"],
 [class^="col"] {
 
-  border: 1px solid black;
   min-height: 80px;
+}
+body{
+  background-color: white;
 }
 header {
   background-color: #2d3e4f;
@@ -12,11 +14,71 @@ header {
 }
 
 .jumbotron {
-  height: 400px;
-  background-color: green;
+  background-color: #29bb9c;
+  color: white;
+  height: 500px;
+}
+img, svg {
+  width: 200px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.black {
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+  text-transform: uppercase;
 }
 
 .about {
   height: 300px;
-  background-color: green;
+  background-color: #29bb9c;
 }
+
+.about h2 {
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.about p {
+  color: white;
+  margin: 0 auto;
+}
+
+.about .button {
+  text-align: center;
+}
+
+.container h2 {
+  text-transform: uppercase;
+}
+
+.contact {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer {
+  background-color: #3b546c;
+  color: white;
+}
+.footer2 {
+  height: 100px;
+  background-color: #222e3b;
+  color: white;
+  text-align: center;
+  
+}
+
+.sc-form .form-control{
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+}
+
+
